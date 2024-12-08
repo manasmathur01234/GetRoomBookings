@@ -1,0 +1,14 @@
+.container .d-flex .plan:hover {
+    transform: scale(1.1);
+}
+
+.container .d-flex .plan:hover .commercial,
+.container .d-flex .plan:hover .planname {
+    color: #E63E26;
+}
+
+@media (min-width:768px) {
+    .container .d-flex .plan {
+        max-width: 25%;
+    }
+}
